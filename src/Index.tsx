@@ -1,21 +1,10 @@
-import React, { useState, useEffect, useRef } from "react";
-import {
-  motion,
-  AnimatePresence,
-  useScroll,
-  useTransform,
-  useSpring,
-} from "framer-motion";
-import { ToastContainer } from "react-toastify";
+import { motion } from "framer-motion";
 import {
   Zap,
-  Shield,
-  Layers,
   Code2,
   GitBranch,
   CheckCircle2,
   XCircle,
-  ArrowRight,
   Copy,
   Terminal,
   Cpu,
